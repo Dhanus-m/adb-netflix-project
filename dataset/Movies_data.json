@@ -16,7 +16,7 @@
 			"location": {
 				"type": "HttpServerLocation",
 				"relativeUrl": {
-					"value": "Dhanus-m/adb-netflix-project/refs/heads/main/@{dataset().file_name}.csv",
+					"value": "Dhanus-m/adb-netflix-project/refs/heads/main/@{dataset().file_name}",
 					"type": "Expression"
 				}
 			},
