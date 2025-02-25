@@ -1,0 +1,9 @@
+{
+	"name": "adf-nyc-db",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c2cbd16f-9152-41ce-8afd-4d38fc720b24",
+		"tenantId": "bfe8c703-d294-40c1-807e-7f789ff39e88"
+	}
+}
