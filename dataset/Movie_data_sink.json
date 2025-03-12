@@ -2,13 +2,10 @@
 	"name": "Movie_data_sink",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "netflix_bronze_storage",
+			"referenceName": "tokyo_olympics_data",
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {
-			"folder_name": {
-				"type": "string"
-			},
 			"file_name": {
 				"type": "string"
 			}
@@ -22,11 +19,8 @@
 					"value": "@dataset().file_name",
 					"type": "Expression"
 				},
-				"folderPath": {
-					"value": "netflix/@{dataset().folder_name}",
-					"type": "Expression"
-				},
-				"fileSystem": "bronze"
+				"folderPath": "raw-data",
+				"fileSystem": "tokyo-olympic-data"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
